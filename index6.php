@@ -2,18 +2,23 @@
 <html>
 <head>
 	<title>Example</title>
-	<style>div {
+	<style>
+#com {
   width:200px;
   height: 100px;
-  background-color: red;
+  background-color: white;
   position: relative;
   animation-name: example;
+  
   animation-duration: 4s;
   animation-delay: -2s;
 }
+h1{
+	font-size: 20px;
+}
 
 @keyframes example {
-  0%   {background-color:red; left:0px; top:0px;}
+  0%   {background-color:blue; left:0px; top:0px;}
   25%  {background-color:yellow; left:-100px; top:0px;}
   50%  {background-color:blue; left:-300px; top:200px;}
   75%  {background-color:green; left:300px; top:-300px;}
@@ -40,11 +45,11 @@
 	</style>
 </head>
 <body>
-<script>
-        let d = new Date();
-        alert("Today's date is " + d);
+<script src="js.js">
+      
     </script>
-<div><h1> Comment</h1></div>
+<div id='com'><h1> Comment</h1></div>
+
     <form method="post" action="save.php">
     	<label>Name:</label>
     	<input type="text" 
@@ -56,7 +61,20 @@
     	<input type="submit" 
     	       name="btn">
     </form>
-
+	
 </body>
 </html>
 
+<!DOCTYPE html>
+<html>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<body>
+
+<div id="myPlot" style="width:50%;width:70%;margin:15%"></div>
+
+<script src="js2.js">
+
+</script>
+
+</body>
+</html>
