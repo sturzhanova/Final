@@ -9,18 +9,18 @@
 <body style="font-family:Verdana;">
 
     <div style="background-color:#f1f1f1;padding:15px;">
-        <h1>История модели Тойота Камри</h1>
+        <h1>Модельный ряд</h1>
         <h3>Resize </h3>
     </div>
 
     <div style="overflow:auto">
         <div class="menu">
-            <div class="menuitem"><a href="http://localhost/web3/index.php">About</a></div>
+        <div class="menuitem"><a href="http://localhost/web3/index.php">About</a></div>
             <div class="menuitem"><a href="http://localhost/web3/index1.php">About Complectation</a></div>
-            <div class="menuitem"><a href="http://localhost/web3/index2.php">About Manufacturer</a></div>
+            <div class="menuitem"><a href="http://localhost/web3/index2.php">TOYOTA RELAX</a></div>
             <div class="menuitem"><a href="http://localhost/web3/index3.php">About European</a></div>
             <div class="menuitem"><a href="http://localhost/web3/index4.php">About American</a></div>
-            <div class="menuitem"><a href="http://localhost/web3/index5.php">About Arabian</a></div>
+            <div class="menuitem"><a href="http://localhost/web3/index5.php">Used Camry</a></div>
             <div class="menuitem"><a href="http://localhost/web3/index6.php">Comment</a></div>
 
 
